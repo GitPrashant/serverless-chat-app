@@ -45,7 +45,7 @@ function Home({ signOut, user }) {
 
 	return (
 		<View>
-			<Flex justifyContent={'end'}>
+			<Flex justifyContent={'start'}>
 				<Button onClick={signOut}>Sign Out</Button>
 			</Flex>
 			<Text marginBlockEnd={'relative.large'}>
@@ -56,7 +56,7 @@ function Home({ signOut, user }) {
 				<TextField
 					width="300px"
 					label="New Room Name"
-					placeholder="product-love"
+					placeholder="mitel-innovation-day"
 					onChange={(e) => setRoomName(e.target.value)}
 				/>
 			</form>

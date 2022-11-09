@@ -27,13 +27,13 @@ export const MessageItem = ({ msg = {}, myUsername }) => {
 			backgroundColor={isMyMsg ? '#007aff' : '#DDDDDD'}
 		>
 			<Flex>
-				<Image
+				{/* <Image
 					borderRadius={tokens.radii.small}
 					src={`https://github.com/${msg.owner}.png`}
 					height="50px"
 					width={'50px'}
 					alt="avatar"
-				/>
+				/> */}
 
 				<View>
 					<Flex>
